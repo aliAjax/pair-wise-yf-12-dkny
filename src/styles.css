@@ -245,6 +245,89 @@ textarea {
   background: linear-gradient(90deg, #176b87, #64b6ac);
 }
 
+.status.warn {
+  background: #fdf0e4;
+  color: #b26a1b;
+}
+
+.status.muted {
+  background: #eceff3;
+  color: #69758c;
+}
+
+.hints {
+  border: 1px dashed #b9cbdd;
+  border-radius: 8px;
+  background: #f4f9fd;
+  padding: 10px 12px;
+  font-size: 13px;
+  color: #445069;
+}
+
+.hints p { margin: 4px 0; }
+
+.failures {
+  border: 1px solid #f0c6b8;
+  border-radius: 8px;
+  background: #fdf3f0;
+  padding: 10px 12px;
+  color: #a03a22;
+  font-size: 13px;
+}
+
+.failures p { margin: 0 0 6px; font-weight: 700; }
+.failures ul { margin: 0; padding-left: 18px; }
+
+.tank-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 12px 0;
+  font-size: 13px;
+  color: #445069;
+}
+
+.tank-table th, .tank-table td {
+  text-align: left;
+  padding: 7px 8px;
+  border-bottom: 1px solid #e6edf5;
+}
+
+.tank-table th { color: #69758c; font-weight: 600; }
+
+.tank-table tr.shortage td { color: #b26a1b; font-weight: 700; }
+
+.orders-panel { margin-top: 18px; }
+
+.action-error {
+  color: #a03a22;
+  background: #fdf3f0;
+  border-radius: 8px;
+  padding: 8px 10px;
+  font-size: 13px;
+}
+
+.sign-panel {
+  display: grid;
+  gap: 10px;
+  border: 1px dashed #b9cbdd;
+  border-radius: 8px;
+  background: #f4f9fd;
+  padding: 12px;
+  margin-bottom: 12px;
+}
+
+.events {
+  list-style: none;
+  margin: 12px 0 0;
+  padding: 10px 12px;
+  border-radius: 8px;
+  background: #eef5fb;
+  color: #445069;
+  font-size: 13px;
+  display: grid;
+  gap: 6px;
+}
+
 .empty {
   text-align: center;
   color: #69758c;
